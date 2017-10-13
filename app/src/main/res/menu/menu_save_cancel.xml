@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="dbsproject.iiumcarrental.Activity2UserForm">
+
+    <item
+        android:id="@+id/saveAction"
+        android:orderInCategory="1"
+        android:title="@string/save"
+        android:icon="@drawable/accept_white"
+        app:showAsAction="ifRoom|withText"/> <!--"ifRoom" put the button on Action Bar if there's enough space -->
+    <item
+        android:id="@+id/cancelAction"
+        android:orderInCategory="1"
+        android:title="@string/cancel"
+        android:icon="@drawable/cancel_white"
+        app:showAsAction="ifRoom|withText"/> <!--"ifRoom" put the button on Action Bar if there's enough space -->
+
+</menu>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="dbsproject.iiumcarrental.Activity1Home">
+
+
+    <!--These are Action Bar buttons-->
+    <item
+        android:id="@+id/viewMyProfileAction"
+        android:orderInCategory="1"
+        android:title="@string/view_profile"
+        android:icon="@drawable/user"
+        app:showAsAction="ifRoom|withText"/>
+
+    <!--These are overflow menu
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    -->
+
+    <!--"ifRoom" put the button on Action Bar if there's enough space -->
+    <!--"never" put the button under overflow menu -->
+
+</menu>

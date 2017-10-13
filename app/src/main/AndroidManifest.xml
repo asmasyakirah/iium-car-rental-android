@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dbsproject.iiumcarrental" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iium_car_rental"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Activity0LogIn"
+            android:label="@string/login" >
+            <intent-filter android:label="@string/app_name" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity0SignUp"
+            android:label="@string/signup" >
+        </activity>
+        <activity
+            android:name=".Activity1Home"
+            android:label="@string/home" >
+        </activity>
+        <activity
+            android:name=".Activity2Add"
+            android:label="@string/add_car" >
+        </activity>
+        <activity
+            android:name=".Activity2Edit"
+            android:label="@string/edit_profile" >
+        </activity>
+        <activity
+            android:name=".Activity3Profile"
+            android:label="@string/view_profile" >
+        </activity>
+        <activity
+            android:name=".Activity3Viewer"
+            android:label="@string/view_booking" >
+        </activity>
+        <activity
+            android:name=".Activity3ListViewer"
+            android:label="@string/view_car_list" >
+        </activity>
+        <activity
+            android:name=".Activity4Search"
+            android:label="@string/search" >
+        </activity>
+    </application>
+
+</manifest>
